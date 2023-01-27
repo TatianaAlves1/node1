@@ -7,7 +7,8 @@ const app = express();
 const livros = [
     {id: 1, "titulo":"Senhor dos Aneis"},
     {id:2, "titulo": "O hobbit"},
-    {id:3, "titulo":"Amitville"}
+    {id:3, "titulo":"Amitville"},
+    {id:4, "titulo":"MongoDB"}
 ] 
 
 app.get('/',(req,res)=>{
